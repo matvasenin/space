@@ -1,0 +1,3 @@
+* text=auto
+*.md diff=markdown linguist-detectable=true
+README.md linguist-detectable=false
