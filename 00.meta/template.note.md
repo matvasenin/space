@@ -1,13 +1,12 @@
 ---
-title: ""
-category: ""
-tags: [""]
+title: Заголовок
+category: category
+tags: [tag, tag]
 created: 2026-07-21
-status: "draft"
+updated: 2026-07-22
+status: draft
 related:
-  - ""
+  - related_note
 links:
-  - ""
+  - https://example.com
 ---
-
-# Заголовок
