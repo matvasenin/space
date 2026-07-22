@@ -1,6 +1,5 @@
 ---
 title: Сетевая модель OSI
-category: network
 tags: [network, model]
 created: 2026-07-22
 updated: 2026-07-22
