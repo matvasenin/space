@@ -34,5 +34,5 @@ links:
 ### Операция
 |Значение|Наименование|Описание|
 |--------|------------|--------|
-|1|ARP Request|Who has **X.X.X.X**? Tell Y.Y.Y.Y|
-|2|ARP Response|X.X.X.X is at **00:0A:0B:0C:0D:0E**|
+|1|**ARP Request**|Who has **X.X.X.X**? Tell Y.Y.Y.Y|
+|2|**ARP Response**|X.X.X.X is at **00:0A:0B:0C:0D:0E**|
