@@ -2,7 +2,6 @@
 title: Сетевая модель TCP/IP
 tags: [network, model]
 created: 2026-07-23
-updated: 2026-07-23
 status: draft
 links:
   - https://datatracker.ietf.org/doc/html/rfc1122

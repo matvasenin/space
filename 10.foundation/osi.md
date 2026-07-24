@@ -2,7 +2,6 @@
 title: Сетевая модель OSI
 tags: [network, model]
 created: 2026-07-22
-updated: 2026-07-23
 status: draft
 links:
   - https://www.iso.org/standard/20269.html

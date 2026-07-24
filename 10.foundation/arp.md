@@ -2,7 +2,6 @@
 title: ARP
 tags: [network, protocol]
 created: 2026-07-22
-updated: 2026-07-22
 status: draft
 links:
   - https://datatracker.ietf.org/doc/html/rfc826

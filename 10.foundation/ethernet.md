@@ -2,7 +2,6 @@
 title: Ethernet
 tags: [network, protocol]
 created: 2026-07-22
-updated: 2026-07-22
 status: draft
 links:
   - https://www.ieee802.org/3/
