@@ -12,12 +12,12 @@ links:
 ## Строение сообщения (ICMPv4)
 |Поле|Размер (байт)|Описание|
 |----|-------------|--------|
-|**Тип** — Type|1|>>>|
-|**Код** — Code|1|Уточняет тип сообщения. Перечень доступен [здесь](https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml)|
-|**Контрольная сумма** — Checksum|2|—|
-|**Данные заголовка** — Header Data, Rest of Header|4|Хранит данные для некоторых типов сообщений|
+|**Type**|1|>>>|
+|**Code**|1|Уточняет тип сообщения. Перечень доступен [здесь](https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml)|
+|**Checksum**|2|—|
+|**Rest of Header**, Header Data|4|Хранит данные для некоторых типов сообщений|
 
-### Тип
+### Type
 |Значение|Наименование|Описание|
 |--------|------------|--------|
 |0|**Echo Reply**|—|
