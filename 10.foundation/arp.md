@@ -1,5 +1,5 @@
 ---
-title: ARP
+title: Address Resolution Protocol (ARP)
 tags: [network, protocol]
 created: 2026-07-22
 status: draft
@@ -8,9 +8,9 @@ links:
   - https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml
 ---
 
-**Address Resolution Protocol** (**ARP**) — L2.5-протокол, позволяющий разрешать логический IP-адрес в физический MAC-адрес.
+**Address Resolution Protocol** (**Address Resolution Protocol**, **ARP**) — это L2.5-протокол, позволяющий разрешать логический IP-адрес в физический MAC-адрес.
 
-Протокол хранит в памяти специальную **ARP-таблицу**:
+ARP хранит в памяти специальную **ARP-таблицу**:
 ```
 192.168.1.1	08:00:19:00:2F:C6
 192.168.1.2	08:00:5A:22:A7:22
@@ -19,6 +19,7 @@ links:
 Если значение отсутствует в таблице, отправляется широковещательное **ARP-сообщение**.
 
 ## Строение сообщения
+
 |Поле|Размер (байт)|Описание|
 |----|-------------|--------|
 |**Физический тип** — Hardware Type, HTYPE|2|Идентификатор канального протокола|
@@ -32,6 +33,7 @@ links:
 |**Логический адрес получателя** — Target Protocol Address, TPA|4|—|
 
 ### Операция
+
 |Значение|Наименование|Описание|
 |--------|------------|--------|
 |1|**ARP Request**|Who has **X.X.X.X**? Tell Y.Y.Y.Y|
