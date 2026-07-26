@@ -1,5 +1,5 @@
 ---
-title: ICMP
+title: Internet Control Message Protocol (ICMP)
 tags: [network, protocol]
 created: 2026-07-23
 status: draft
@@ -7,9 +7,10 @@ links:
   - https://datatracker.ietf.org/doc/html/rfc792
 ---
 
-**Internet Control Message Protocol** (**ICMP**) — L3-протокол, дополняющий [IP](ip.md) передачей служебной информации. Применяет **ICMP-сообщения**, инкапсулируемые в IP-датаграммы.
+**Internet Control Message Protocol** (**ICMP**) — это L3-протокол, дополняющий [IP](ip.md) передачей служебной информации. Применяет **ICMP-сообщения**, инкапсулируемые в IP-датаграммы.
 
 ## Строение сообщения (ICMPv4)
+
 |Поле|Размер (байт)|Описание|
 |----|-------------|--------|
 |**Type**|1|>>>|
@@ -18,6 +19,7 @@ links:
 |**Rest of Header**, Header Data|4|Хранит данные для некоторых типов сообщений|
 
 ### Type
+
 |Значение|Наименование|Описание|
 |--------|------------|--------|
 |0|**Echo Reply**|—|
@@ -33,4 +35,5 @@ links:
 |14|**Timestamp Reply**|Синхронизация времени. Вытеснено [NTP](ntp.md)|
 
 ## Примечания
+
 [^1]: https://datatracker.ietf.org/doc/html/rfc6633
