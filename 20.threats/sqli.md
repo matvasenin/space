@@ -1,5 +1,5 @@
 ---
-title: SQL-инъекция
+title: SQL Injection
 tags: [vulnerability, web]
 created: 2026-07-26
 status: draft
@@ -104,3 +104,4 @@ SELECT id FROM users WHERE id = '???
 
 > [!WARNING]
 > ORM-фреймворки не являются панацеей — см. [ORM-инъекция](orm-injection.md).
+> 
