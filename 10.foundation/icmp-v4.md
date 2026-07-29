@@ -1,5 +1,5 @@
 ---
-title: Internet Control Message Protocol (ICMP)
+title: Internet Control Message Protocol, Version 4 (ICMPv4)
 tags: [network, protocol]
 created: 2026-07-23
 status: draft
@@ -7,16 +7,16 @@ links:
   - https://datatracker.ietf.org/doc/html/rfc792
 ---
 
-**Internet Control Message Protocol** (**ICMP**) — это L3-протокол, дополняющий [IP](ip.md) передачей служебной информации. Применяет **ICMP-сообщения**, инкапсулируемые в IP-датаграммы.
+**Internet Control Message Protocol**, **Version 4** (**ICMPv4**) — это L3-протокол, дополняющий [IPv4](ipv4.md) передачей служебной информации. Применяет **ICMP-сообщения**, инкапсулируемые в IP-датаграммы.
 
-## Строение сообщения (ICMPv4)
+## Строение сообщения
 
-|Поле|Размер (байт)|Описание|
+|Поле|Размер (бит)|Описание|
 |----|-------------|--------|
-|**Type**|1|>>>|
-|**Code**|1|Уточняет тип сообщения. Перечень доступен [здесь](https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml)|
-|**Checksum**|2|—|
-|**Rest of Header**, Header Data|4|Хранит данные для некоторых типов сообщений|
+|**Type**|8|>>>|
+|**Code**|8|Уточняет тип сообщения. Перечень доступен [здесь](https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml)|
+|**Checksum**|16|—|
+|**Rest of Header**, Header Data|32|Хранит данные для некоторых типов сообщений|
 
 ### Type
 
