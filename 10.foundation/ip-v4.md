@@ -5,6 +5,8 @@ created: 2026-07-29
 status: draft
 links:
   - https://datatracker.ietf.org/doc/html/rfc791
+related:
+  - TCP/IP
 ---
 
 **Internet Protocol**, **Version 4** (**IPv4**) — L3-протокол, обеспечивающий адресацию узлов и передачу **IP-датаграмм** (далее — датаграмма) между компьютерными сетями.

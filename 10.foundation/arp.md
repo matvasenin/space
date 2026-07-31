@@ -6,6 +6,7 @@ status: draft
 links:
   - https://datatracker.ietf.org/doc/html/rfc826
   - https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml
+related: —
 ---
 
 **Address Resolution Protocol** (**Address Resolution Protocol**, **ARP**) — это L2.5-протокол, позволяющий разрешать логический IP-адрес в физический MAC-адрес.

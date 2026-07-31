@@ -6,6 +6,7 @@ status: draft
 links:
   - https://cwe.mitre.org/data/definitions/89.html
   - https://emb3d.mitre.org/threats/TID-321.html
+related: —
 ---
 
 **SQL-инъекция** (**SQLi**) — это уязвимость веб-приложения, позволяющая атакующему внедряться в запросы к реляционной базе данных.

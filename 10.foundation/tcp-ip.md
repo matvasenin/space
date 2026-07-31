@@ -1,11 +1,12 @@
 ---
-title: Сетевая модель TCP/IP
+title: The Internet Protocol Suite (TCP/IP)
 tags: [network, model]
 created: 2026-07-23
 status: draft
 links:
   - https://datatracker.ietf.org/doc/html/rfc1122
   - https://datatracker.ietf.org/doc/html/rfc1123
+related: —
 ---
 
 **TCP/IP** (ранее **DoD**, Departure of Defense) — сетевая модель, превзошедшая [OSI](osi.md) на практике.

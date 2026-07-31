@@ -5,6 +5,8 @@ created: 2026-07-23
 status: draft
 links:
   - https://datatracker.ietf.org/doc/html/rfc792
+related:
+  - IPv4
 ---
 
 **Internet Control Message Protocol**, **Version 4** (**ICMPv4**) — это L3-протокол, дополняющий [IPv4](ipv4.md) передачей служебной информации. Применяет **ICMP-сообщения**, инкапсулируемые в IP-датаграммы.

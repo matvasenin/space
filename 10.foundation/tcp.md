@@ -5,6 +5,8 @@ created: 2026-07-25
 status: draft
 links:
   - https://datatracker.ietf.org/doc/html/rfc9293
+related:
+  - TCP/IP
 ---
 
 **Transmission Control Protocol** (**TCP**) — это L4-протокол, обеспечивающий надёжное полнодуплексное соединение между процессами. Использует **TCP-сегменты**.

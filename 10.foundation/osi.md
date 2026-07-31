@@ -1,10 +1,11 @@
 ---
-title: Сетевая модель OSI
+title: The Open Systems Interconnection (OSI) Model
 tags: [network, model]
 created: 2026-07-22
 status: draft
 links:
   - https://www.iso.org/standard/20269.html
+related: —
 ---
 
 The **Open Systems Interconnection** Model (далее — **OSI**) — эталонная сетевая модель, чаще всего используемая в образовательных целях.

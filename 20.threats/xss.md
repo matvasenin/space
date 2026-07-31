@@ -6,6 +6,7 @@ status: draft
 links:
   - https://cwe.mitre.org/data/definitions/79.html
   - https://emb3d.mitre.org/threats/TID-319.html
+related: —
 ---
 
 **Межсайтовый скриптинг** (**Cross-Site Scripting**, **XSS**) — это уязвимость веб-приложения, позволяющая атакующему **выполнять произвольный JS-код** в клиентском браузере от лица **доверенного веб-сайта**.
