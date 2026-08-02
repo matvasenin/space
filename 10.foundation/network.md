@@ -68,7 +68,7 @@ flowchart LR
 ```mermaid
 flowchart LR
   A[Узел] --- B[Узел] --- C[Узел] --- A
-  A --- C --- B --- A
+  A --- B --- C --- A
 ```
 
 #### Звезда
