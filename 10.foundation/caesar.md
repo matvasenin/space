@@ -21,27 +21,20 @@ related: —
 import string
 alphabet = string.ascii_uppercase # "ABC...XYZ"
 
-# Шифруем
+# Шифрование
 def encode(message: str, shift: int) -> str:
   output = ""
   for char in message:
-    # Делаем проверку на спец. символы (напр. "{")
-    if char.upper() not in alphabet:
-      output += char
-      continue
-    # Вычисляем индекс буквы в алфавите
+    # Вычисление нового индекса
     idx = (alphabet.index(char.upper()) + shift) % len(alphabet)
-    # Сопоставляем регистры
-    if char.islower():
-      output += alphabet[idx].lower()
-    else:
-      output += alphabet[idx]
+    # Добавление буквы в шифротекст
+    output += alphabet[idx]
   return output
 
-# Дешифруем
+# Расшифрование
 def decode(ciphertext: str, shift: int) -> str:
   return encode(ciphertext, len(alphabet) - shift)
 
-print(encode("Hello", 3)) # --> Khoor
-print(decode("Khoor", 3)) # --> Hello
+print(encode("HELLO", 3)) # --> KHOOR
+print(decode("KHOOR", 3)) # --> HELLO
 ```
