@@ -42,6 +42,6 @@ def encode(message: str, shift: int) -> str:
 def decode(ciphertext: str, shift: int) -> str:
   return encode(ciphertext, len(alphabet) - shift)
 
-print(encode("Hello", 3)) # -> Khoor
-print(decode("Khoor", 3)) # -> Hello
+print(encode("Hello", 3)) # --> Khoor
+print(decode("Khoor", 3)) # --> Hello
 ```
